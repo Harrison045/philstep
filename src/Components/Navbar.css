@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Quicksand&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+/* li {
+  text-decoration: none;
+  list-style: none;
+}
+
+.navbar {
+  height: 10vh;
+  line-height: 10vh;
+  box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 30px;
+}
+.nav-link {
+  display: flex;
+  justify-content: flex-end;
+  width: 75%;
+}
+.container {
+  max-width: 90%;
+  margin: auto;
+}
+
+.nav-link li {
+  color: black;
+  font-size: 15px;
+  padding: 0 10px;
+  margin: 0 10px;
+  cursor: pointer;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+.mobile-menu-icon {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .logo {
+    display: flex;
+    position: absolute;
+    top: 15px;
+    left: 35px;
+  }
+  .nav-link {
+    display: none;
+  }
+  .nav-link-mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    left: 0;
+    top: 10%;
+    transition: all 0.5s ease-in-out;
+    width: 100%;
+    background-color: white;
+  }
+  ul li{
+    padding: 32px;
+    width: 100%;
+    transition: all 0.5s ease-in-out;
+    text-align: center;
+  }
+  .mobile-menu-icon{
+    position: absolute;
+    display: block;
+    right: 20px;
+  }
+  .hero h1 {
+    font-size: 50px;
+  }
+} */
+
+.Home {
+  position: relative;
+  left: 0rem;
+  color: #000000;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  border-radius: 0.3rem;
+}
+.Home:hover{
+text-decoration: underline;
+  color: rgb(9, 5, 231);  
+}
+.About {
+  position: relative;
+  right: 1rem;
+  top: 0.3rem;
+  color: #1c244b;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  border-radius: 0.5rem;
+}
+.About:hover{
+  text-decoration: underline;
+  color: rgb(9, 5, 231); 
+}
+.Services {
+  position: relative;
+  right: 1rem;
+  top: 0.3rem;
+  color: #1c244b;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  width: 9rem;
+  height: 2rem;
+  padding-top: 0.3rem;
+  border-radius: 0.5rem;
+  text-align: center;
+}
+.Services:hover{
+  text-decoration: underline;
+  color: rgb(9, 5, 231); 
+}
+.Contact {
+  position: relative;
+  right: 1rem;
+  top: 0.3rem;
+  color: #1c244b;
+  font-family: "Rubik", sans-serif;
+  font-size: 1.1rem;
+  width: 5rem;
+  height: 2rem;
+  text-align: center;
+  padding-top: 0.3rem;
+  border-radius: 0.5rem;
+}
+.Contact:hover{
+  text-decoration: underline;
+  color: rgb(9, 5, 231); 
+}
+.logo1 {
+  position: relative;
+  top: 0.5rem;
+  width: 10rem;
+  position: relative;
+  bottom: 2rem;
+}
