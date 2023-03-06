@@ -1,11 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo&family=Quicksand&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Heebo&family=Quicksand&display=swap");
 
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
-}
+} */
 /* li {
   text-decoration: none;
   list-style: none;
@@ -86,8 +86,8 @@ button {
     font-size: 50px;
   }
 } */
-
-.Home {
+ 
+/* .Home {
   position: relative;
   left: 0rem;
   color: #000000;
@@ -153,11 +153,82 @@ text-decoration: underline;
 .Contact:hover{
   text-decoration: underline;
   color: rgb(9, 5, 231); 
-}
+} */
 .logo1 {
   position: relative;
-  top: 0.5rem;
-  width: 10rem;
+  right: 0rem;
+  width: 8rem;
+}
+/* .nav{
+  height: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 3px 3px;
+}
+.nav1{
   position: relative;
-  bottom: 2rem;
+  bottom: 1.8rem;
+} */
+
+.header{
+  position: fixed;
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+  padding: 1rem;
+  z-index: 10;
+}
+.header-bg {
+  background-color: rgba(0,0,0, .85);
+  transition: .5s;
+  width: 100%;
+}
+.nav-menu{
+  display: flex;
+}
+.nav-menu li{
+  padding: 0 1rem;
+}
+.nav-menu a{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.hamburger{
+  display: none;
+}
+
+@media screen and (max-width:1240px){
+  .hamburger{
+    display: block;
+  }
+
+  .nav-menu{
+    position: absolute;
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    transition: 0.3s;
+    z-index: -1;
+    background: rgba(0,0,0, .9);
+  }
+
+  .nav-menu.active{
+    left: 0;
+  }
+
+
+  .nav-menu li{
+    padding: 1rem 0;
+  }
+
+  .nav-menu a{
+    font-size: 2rem;
+  }
 }
